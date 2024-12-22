@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Code-php-informational?style=flat&logo=php&logoColor=white&color=blue) ![](https://img.shields.io/badge/Terminal-Termux-informational?style=flat&logo=android&logoColor=white&color=brightgreen)
 
+
 ## What is ***NeoTheme*** specifically for Termux?
 **NeoTheme** adalah sebuah program software di rancang untuk membuat penampilan termux menjadi keren atau menarik. Di dalam nya ada beberapa fitur yang tersedia dan dapat digunakan dengan mudah kapan saja anda mencobanya!
 
@@ -206,6 +207,21 @@ php main.php
 [45] Victor-Mono.ttf
 
 [?] Silahkan pilih angka di atas untuk menerapkan font (eg.1-45) :
+```
+
+### PS (Variabel Shell) menu
+``` php
+┏━━(NeoTheme㉿fkzsec)━[/storage/emulated/0/NeoTheme]
+┗━# ps1
+
+[+] Mempersiapkan Bahan-bahan..
+[+] PS1 Tema yang tersedia :
+
+[1] default.txt
+[2] localhost.txt
+
+
+[?] Pilih angka font yang ada di atas untuk Variabel Shell yang diterapkan :
 ```
 
 ## Top Languages

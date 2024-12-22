@@ -229,3 +229,7 @@ php main.php
 
 ## Links
 [![YouTube Badge](https://img.shields.io/static/v1?label=|&message=YouTube&color=red&style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@fkzz_id?si=2iKh-_gak2JPjffW) [![Telegram Badge](https://img.shields.io/static/v1?label=|&message=Telegram&color=lightblue&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/fkzsec) [![Telegram Badge](https://img.shields.io/static/v1?label=|&message=Telegram2&color=lightblue&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ton619cyber) [![TikTok Badge](https://img.shields.io/static/v1?label=|&message=TikTok&color=Gray&style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@fkzsec.id)
+
+## Bug?
+### Bug pada python3.11 tidak berfungsi
+jika ada bug di python3.11 tidak berfungsi atau tidak ditemukan saat menjalankan Logo/Tema yang dipilih maka coba ke ```.bashsrc``` lalu ganti python3.11 menjadi python3.12

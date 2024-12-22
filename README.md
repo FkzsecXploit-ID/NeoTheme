@@ -232,4 +232,4 @@ php main.php
 
 ## Bug?
 ### Bug pada python3.11 tidak berfungsi
-jika ada bug di python3.11 tidak berfungsi atau tidak ditemukan saat menjalankan Logo/Tema yang dipilih maka coba ke ```.bashsrc``` lalu ganti python3.11 menjadi python3.12
+jika ada bug di python3.11 tidak berfungsi atau tidak ditemukan saat menjalankan Logo/Tema yang dipilih maka coba ke ```.bashsrc``` lalu ganti python3.11 menjadi python3.12/python3/python

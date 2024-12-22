@@ -1,0 +1,24 @@
+import os, sys, time, datetime, sockets, requests
+os.system("clear")
+date = datetime.datetime.now()
+text = "fkz46"
+team = "team46"
+print("\033[5;31m•\033[5;33m•\033[5;32m•")
+figlet_output = os.popen(f"figlet -f 3d {text}").read()
+max_len = max(len(line) for line in figlet_output.splitlines())
+padded_output = "\n".join([line.center(max_len) for line in figlet_output.splitlines()])
+rainbow_colored_text = ""
+#colors = ['\x1b[34m', '\x1b[36m', '\x1b[32m', '\x1b[33m', '\x1b[35m', '\x1b[31m']
+colors = ['\x1b[31m', '\x1b[33m', '\x1b[32m', '\x1b[36m', '\x1b[34m', '\x1b[35m']
+color_index = 0
+for line in padded_output.splitlines():
+    rainbow_colored_line = ""
+    for char in line:
+        rainbow_colored_line += colors[color_index % len(colors)] + char
+        color_index += 1
+    rainbow_colored_text += rainbow_colored_line + '\x1b[0m' + "\n"
+output_with_box = os.popen(f"echo '{rainbow_colored_text}' | boxes -d ansi | sed 's/^/\\x1b[34m/'").read()
+print(output_with_box)
+# main()
+os.system("neofetch --ascii_distro linux")
+print(f"                    \033[5;31m<\033[5;33m===[ \x1b[48;5;13m\x1b[38;5;16m Welcome To \033[5;32mH4xor_{team} \033[0m\033[5;33m]===\033[5;31m>")

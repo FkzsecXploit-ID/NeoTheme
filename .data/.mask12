@@ -1,0 +1,8 @@
+import os
+name="fkz46"
+team="team46"
+os.system("clear")
+print("\033[5;31m•\033[5;32m•\033[5;33m•")
+os.system("neofetch --ascii_distro parrot")
+print(f"\n   \033[5;34m[( \033[5;33mWelcome back \033[5;37m{name}\033[5;34m)]!")
+print(f"     \033[5;33mTeam \033[5;37m{team}\n\n")
